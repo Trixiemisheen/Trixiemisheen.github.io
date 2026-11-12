@@ -41,8 +41,15 @@ from the DevSuite desktop application.
 - `/` — home, current work, and contact links
 - `/support.html` — support center and developer resources
 - `/privacy.html` — plain-language privacy policy
+- `/project-devsuite.html` — DevSuite project showcase
+- `/ideas.html` — public idea lab
+- `/changelog.html` — project updates
+- `/roadmap.html` — current direction and priorities
+- `/docs.html` — documentation starting points
+- `/status.html` — current service and release status
+- `/downloads.html` — release information and future installers
 - `/404.html` — friendly missing-page fallback
-- `/sitemap.xml` and `/robots.txt` — search-engine discovery
+- `/sitemap.xml`, `/robots.txt`, and `/feed.xml` — discovery and updates
 
 ## Preview locally
 

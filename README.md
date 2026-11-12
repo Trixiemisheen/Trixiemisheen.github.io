@@ -30,4 +30,36 @@ Open <http://localhost:8080> in a browser.
    Enable HTTPS after DNS finishes propagating.
 
 Do not put registrar passwords, API tokens, or private keys in this repository.
-# Trixiemisheen.github.io
+# Trixie Misheen website
+
+The public home for Trixie Misheen: software, experiments, support, and ideas.
+This is a standalone static site for `trixiemisheen.site`, deployed independently
+from the DevSuite desktop application.
+
+## Public endpoints
+
+- `/` — home, current work, and contact links
+- `/support.html` — support center and developer resources
+- `/privacy.html` — plain-language privacy policy
+- `/404.html` — friendly missing-page fallback
+- `/sitemap.xml` and `/robots.txt` — search-engine discovery
+
+## Preview locally
+
+From the repository root:
+
+```powershell
+python -m http.server 8080
+```
+
+Then open <http://localhost:8080>.
+
+## Publish with GitHub Pages
+
+Push the repository to GitHub and configure **Settings → Pages** to deploy from
+the repository’s publishing branch. Keep [CNAME](./CNAME) at the repository
+root. The custom domain should point to GitHub Pages, with HTTPS enabled after
+DNS propagation finishes.
+
+Do not put registrar passwords, API tokens, private keys, or personal support
+attachments in this repository.

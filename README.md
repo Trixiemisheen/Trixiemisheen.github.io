@@ -8,7 +8,6 @@ separate from the DevSuite application and can be deployed independently.
 From the repository root:
 
 ```powershell
-cd website
 python -m http.server 8080
 ```
 

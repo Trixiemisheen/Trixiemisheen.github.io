@@ -1,0 +1,8 @@
+title: "Trixie Misheen"
+description: "A home for curious work"
+url: "https://www.trixiemisheen.site"
+baseurl: ""
+
+markdown: kramdown
+
+permalink: pretty

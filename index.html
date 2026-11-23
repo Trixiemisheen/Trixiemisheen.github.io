@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trixie Misheen — a creative home for software, ideas, and experiments.">
+  <meta name="description" content="Trixie Misheen a creative home for software, ideas, and experiments.">
   <meta name="theme-color" content="#0b0d14">
   <link rel="canonical" href="https://trixiemisheen.site/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://trixiemisheen.site/">
-  <meta property="og:title" content="Trixie Misheen — Ideas in progress">
+  <meta property="og:title" content="Trixie Misheen Ideas in progress">
   <meta property="og:description" content="A creative home for software, ideas, and experiments.">
   <meta property="og:site_name" content="Trixie Misheen">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Trixie Misheen — Ideas in progress">
+  <meta name="twitter:title" content="Trixie Misheen Ideas in progress">
   <meta name="twitter:description" content="A creative home for software, ideas, and experiments.">
-  <title>Trixie Misheen — Ideas in progress</title>
+  <title>Trixie Misheen Ideas in progress</title>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
     {
@@ -36,21 +36,40 @@
   <div class="ambient ambient-two"></div>
 
   <header class="site-header">
-    <a class="wordmark" href="#main-content" aria-label="Trixie Misheen home">
-      <span class="mark">T</span>
-      <span>TRIXIE MISHEEN</span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span>+</span></button>
+    <div class="sidebar-top">
+      <a class="wordmark" href="#main-content" aria-label="Trixie Misheen home">
+        <span class="mark">T</span>
+        <span>TRIXIE MISHEEN</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span>+</span></button>
+    </div>
+    <div class="workspace-switcher" aria-label="Current workspace">
+      <span class="workspace-avatar">TM</span>
+      <span><b>Public workspace</b><small>Trixie Misheen</small></span>
+      <span class="workspace-chevron">⌄</span>
+    </div>
     <nav id="site-nav" aria-label="Main navigation">
-      <a href="#work">Work</a>
-      <a href="#ideas">Ideas</a>
-      <a href="#about">About</a>
-      <a href="#privacy">Privacy</a>
-      <a class="nav-button" href="mailto:hello@trixiemisheen.site">Say hello <span>↗</span></a>
+      <span class="nav-heading">Overview</span>
+      <a class="nav-active" href="#main-content"><i class="nav-icon nav-icon-grid"></i>Dashboard</a>
+      <a href="#work"><i class="nav-icon nav-icon-work"></i>Work</a>
+      <a href="#ideas"><i class="nav-icon nav-icon-ideas"></i>Ideas</a>
+      <span class="nav-heading nav-heading-spaced">Workspace</span>
+      <a href="#about"><i class="nav-icon nav-icon-about"></i>About</a>
+      <a href="#privacy"><i class="nav-icon nav-icon-privacy"></i>Privacy</a>
+      <a class="nav-button" href="mailto:hello@trixiemisheen.site"><i class="nav-icon nav-icon-mail"></i>Say hello <span>↗</span></a>
     </nav>
+    <div class="sidebar-status"><span class="pulse"></span><span>All systems operational</span></div>
   </header>
 
   <main id="main-content">
+    <div class="dashboard-topbar section-shell">
+      <div class="topbar-title"><span class="topbar-kicker">Workspace / Overview</span><strong>Dashboard</strong></div>
+      <div class="topbar-actions">
+        <label class="search-box"><span>⌕</span><input type="search" aria-label="Search" placeholder="Search" /></label>
+        <button class="topbar-icon" type="button" aria-label="Notifications">♡<b>1</b></button>
+        <span class="topbar-avatar">TM</span>
+      </div>
+    </div>
     <section class="hero section-shell">
       <div class="hero-copy">
         <p class="eyebrow"><span class="pulse"></span> Building in public, one strange idea at a time</p>
@@ -191,6 +210,7 @@
       <a href="https://instagram.com/trixiemisheen" target="_blank" rel="noreferrer">Instagram ↗</a>
       <a href="https://t.me/Trixie_Misheen" target="_blank" rel="noreferrer">Telegram ↗</a>
     </div>
+    <span class="collab-credit">In collaboration with XTR softwares</span>
   </footer>
   <script src="script.js"></script>
 </body>
